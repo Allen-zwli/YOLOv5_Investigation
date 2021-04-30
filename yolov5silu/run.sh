@@ -5,4 +5,4 @@ python train.py --img 640 --batch 128 --epochs 250 --data voc.yaml --cfg yolov5s
 python train.py --img 640 --batch 128 --epochs 250 --data voc.yaml --cfg yolov5sTRlast2L.yaml --weights '' --cache --name exp_yolov5s_scratch_TRlast2L
 python train.py --img 640 --batch 128 --epochs 250 --data voc.yaml --cfg yolov5sTRlastbone.yaml --weights '' --cache --name exp_yolov5s_scratch_TRlastbone
 
-python detect_prune.py
+python prune_test.py
